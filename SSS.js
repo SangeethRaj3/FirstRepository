@@ -17,3 +17,7 @@ fetch(url)
   .catch(error => {
     console.error('There has been a problem with your fetch operation:', error);
   });
+
+for(var i = 0;i<1000000000;i++) {
+  console.log(i);
+}
